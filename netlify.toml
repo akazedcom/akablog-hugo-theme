@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm install && npm run build:css && hugo --gc --minify"
+  command = "npm install && hugo"
 
 [build.environment]
   HUGO_VERSION = "0.123.0"
