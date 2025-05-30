@@ -1,8 +1,7 @@
 [build]
   publish = "public"
-  command = "npm install && hugo"
+  command = "npm install && npm run build:css && hugo --gc --minify"
 
 [build.environment]
   HUGO_VERSION = "0.123.0"
-  NODE_VERSION = "20.11.0"  # Atur sesuai versi Node yang kamu gunakan lokal
-  HUGO_ENV = "production"
+  NODE_VERSION = "20.11.0"
