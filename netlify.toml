@@ -3,6 +3,6 @@
   command = "npm install && hugo"
 
 [build.environment]
-  HUGO_VERSION = "0.123.0"
-  NODE_VERSION = "20.11.0"  # Atur sesuai versi Node yang kamu gunakan lokal
+  HUGO_VERSION = "0.123.0"         # Ganti sesuai versi yang kamu pakai
   HUGO_ENV = "production"
+  NODE_VERSION = "20.11.0"         # Opsional: sesuaikan dengan versi Node kamu
