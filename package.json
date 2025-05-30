@@ -6,6 +6,7 @@
   "scripts": {
     "build:css": "tailwindcss -i ./themes/akablog/assets/css/style.css -o ./themes/akablog/static/css/style.css --minify",
     "watch:css": "tailwindcss -i ./themes/akablog/assets/css/style.css -o ./themes/akablog/static/css/style.css --watch"
+    "build": "npm run build:css && hugo"
   },
   "dependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
