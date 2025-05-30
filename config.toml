@@ -1,10 +1,12 @@
 baseURL = "https://akablog.akazed.com/" # Replace with your site's base URL
 languageCode = "id-id" # Or your preferred language e.g., en-us
-title = "Akablog Hugo Theme" # Replace with your blog's title
+title = "Nama Blog Anda" # Replace with your blog's title
 theme = "akablog"
-paginate = 9 # Number of posts per page
+paginate = 10 # Number of posts per page
 copyright = "© {year} Nama Anda atau Nama Blog Anda. Hak Cipta Dilindungi." # Dynamic year in footer
 
+publishDir = "public"
+ 
 enableRobotsTXT = true
 enableGitInfo = false # Set to true if you want to use .GitInfo
 summaryLength = 70 # Default summary length
@@ -14,7 +16,7 @@ summaryLength = 70 # Default summary length
   defaultTheme = "" # "light" or "dark" or empty for system preference
   author = "Nama Anda" # Your name
   description = "Deskripsi singkat tentang blog Anda." # Site description
-  site_name = "Akablog Hugo Theme" # Used in the header, can be different from site title
+  site_name = "Nama Anda" # Used in the header, can be different from site title
   dateFormatSingle = "January 2, 2006" # Date format for single posts
   dateFormatList = "Jan 2, 2006" # Date format for list items
   mainSections = ["posts", "blog"] # Sections to include in main post listings
@@ -25,7 +27,7 @@ summaryLength = 70 # Default summary length
   og_image = "/images/og-default.png" # Place in static/images/
 
   # Disqus shortname for comments. Leave empty or remove if not using Disqus.
-  disqusShortname = "akazed" # REPLACE THIS
+  disqusShortname = "your_disqus_shortname_here" # REPLACE THIS
 
   # Social media links for footer (optional)
   twitter = "https://twitter.com/yourusername"

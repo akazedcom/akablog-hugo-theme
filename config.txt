@@ -1,10 +1,12 @@
-baseURL = "https://example.com/" # Replace with your site's base URL
+baseURL = "https://akablog.akazed.com/" # Replace with your site's base URL
 languageCode = "id-id" # Or your preferred language e.g., en-us
 title = "Nama Blog Anda" # Replace with your blog's title
 theme = "akablog"
 paginate = 10 # Number of posts per page
 copyright = "© {year} Nama Anda atau Nama Blog Anda. Hak Cipta Dilindungi." # Dynamic year in footer
 
+publishDir = "public"
+ 
 enableRobotsTXT = true
 enableGitInfo = false # Set to true if you want to use .GitInfo
 summaryLength = 70 # Default summary length
