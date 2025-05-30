@@ -1,4 +1,4 @@
-baseURL = "https://example.com/" # Replace with your site's base URL
+baseURL = "/" # Replace with your site's base URL
 languageCode = "id-id" # Or your preferred language e.g., en-us
 title = "Akablog Hugo Theme" # Replace with your blog's title
 theme = "akablog"
